@@ -29,3 +29,55 @@ img {
     display: none;
     margin-top: 1rem;
 }
+
+p {
+	margin-bottom: 0rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
+	
+}
+
+.social-links img {
+    width: 60px; /* Ajusta el tamaño de los iconos según sea necesario */
+    height: auto;
+	max-height: 60px; /* Limita la altura de la imagen */
+	padding-right: 1rem;
+	vertical-align: middle;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex-basis: 30%; /* Ajusta el tamaño de cada columna según sea necesario */
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
