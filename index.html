@@ -3,39 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título de la Página</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace a una hoja de estilos externa -->
-    <script src="script.js" defer></script> <!-- Enlace a un archivo JavaScript externo -->
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Título Principal</h1>
-        <nav>
-            <ul>
-                <li><a href="#seccion1">Sección 1</a></li>
-                <li><a href="#seccion2">Sección 2</a></li>
-                <li><a href="#seccion3">Sección 3</a></li>
-            </ul>
-        </nav>
+        <h1>Tu Nombre</h1>
+        <p>Desarrollador de Software</p>
     </header>
-
-    <main>
-        <section id="seccion1">
-            <h2>Encabezado de Sección 1</h2>
-            <p>Contenido de la sección 1.</p>
-        </section>
-        <section id="seccion2">
-            <h2>Encabezado de Sección 2</h2>
-            <p>Contenido de la sección 2.</p>
-        </section>
-        <section id="seccion3">
-            <h2>Encabezado de Sección 3</h2>
-            <p>Contenido de la sección 3.</p>
-        </section>
-    </main>
-
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Descripción breve sobre ti.</p>
+    </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Nombre del Proyecto 1</h3>
+            <img src="images/gifs/proyecto1.gif" alt="Proyecto 1">
+            <p class="descripcion">Descripción del proyecto 1.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Nombre del Proyecto 2</h3>
+            <img src="images/gifs/proyecto2.gif" alt="Proyecto 2">
+            <p class="descripcion">Descripción del proyecto 2.</p>
+        </div>
+        <!-- Repite para otros proyectos -->
+    </section>
+    <!-- Agrega más secciones según sea necesario -->
     <footer>
-        <p>Pie de página</p>
+        <p>Contacto: tuemail@example.com</p>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
