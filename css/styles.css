@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+	margin: 0;
 }
 
 header, footer {
@@ -8,13 +9,13 @@ header, footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+	
 }
 
 footer {
     padding: 2rem 0;
     bottom: 0;
     width: 100%;
-    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
 }
 
 section {
@@ -42,9 +43,9 @@ img {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
-    gap: 50px;
+    gap: 80px;
 }
 
 .column {
@@ -64,6 +65,10 @@ img {
 h2 {
     color: #333;
 	margin-bottom: 15px;
+}
+h3	{
+	color: #333;
+	
 }
 
 table {
@@ -110,4 +115,7 @@ th {
 }
 .columna-formacion {
     text-align: left;
+}
+.columna-intereses {
+	width: 30%;
 }
