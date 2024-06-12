@@ -1,19 +1,31 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Selecciona todos los elementos con la clase "proyecto"
-    var proyectos = document.querySelectorAll(".proyecto");
 
-    // Añade un evento de clic a cada proyecto
-    proyectos.forEach(function(proyecto) {
-        proyecto.addEventListener("click", function() {
-            // Selecciona el elemento de descripción dentro del proyecto clicado
-            var descripcion = proyecto.querySelector(".descripcion");
+//------------------------ESPACIO PARA RELLENAR CON EXPERIENCIA-----------------------------------//
+function display_conocimientos(tecnologia){
+	
+	let displayed_html;
+	
+	switch(tecnologia) {
+		
+// Python ----------------------------//		
+		case "Python":
+		displayed_html = 
+	
+"Funciona!!!";
+	
+    break;
 
-            // Alterna la visibilidad de la descripción
-            if (descripcion.style.display === "none" || descripcion.style.display === "") {
-                descripcion.style.display = "block";
-            } else {
-                descripcion.style.display = "none";
-            }
-        });
-    });
-});
+// Java ------------------------------//
+		case "Java":
+		displayed_html = 
+	
+"Funciona!!!";
+	
+    break;
+
+// Default ---------------------------//
+		default:
+    // code block
+	}
+	
+	document.getElementById("contenido-variable").innerHTML = displayed_html;
+}
