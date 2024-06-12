@@ -103,6 +103,12 @@ th {
     background-color: #f2f2f2;
 }
 
+td p {
+	color: #0073e6;
+	font-weight: bold;
+	cursor: pointer;
+}
+
 .contenedor-tecnologias{
 	display: flex;
 	gap: 50px;
