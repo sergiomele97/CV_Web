@@ -124,6 +124,18 @@ td p {
 	margin: 7%;
 }
 
+li {
+	border-bottom: 1px solid #ddd;
+}
+
+
+a {
+	text-decoration: none;
+	color: #007acc;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+
 /* 4. Formación*/
 .formation-section {
     margin-left: 50px;
@@ -181,4 +193,12 @@ li {
 #conectamos {
 	font-size: 25px;
 	margin-top: 0;
+}
+.Actitudes{
+	list-style-type: none;
+	padding: 0;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
 }
