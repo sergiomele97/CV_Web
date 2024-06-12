@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 	margin: 0;
+	
 }
 
 section {
@@ -34,9 +35,20 @@ header, footer {
 }
 
 footer {
-    padding: 2rem 0;
-    bottom: 0;
+	margin-top: 20px;
     width: 100%;
+}
+
+section {
+	padding-left: 2rem;
+    margin: auto;
+	max-width: 1800px;
+	
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .social-links {
@@ -126,4 +138,24 @@ th {
 /* 5. Intereses */
 .columna-intereses {
 	width: 30%;
+}
+.container-foto {
+    display: flex;
+}
+.columna-foto {
+	flex: 1;
+	text-align: right;
+    justify-content: flex-end;
+}
+.columna-foto img {
+	margin-right: 30px;
+}
+li {
+	list-style-type: disc;
+	color: #333;
+	padding: 10px;
+}
+#conectamos {
+	font-size: 25px;
+	margin-top: 0;
 }
