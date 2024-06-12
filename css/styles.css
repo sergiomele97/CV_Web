@@ -1,9 +1,30 @@
+
+/* Estilos genéricos */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 	margin: 0;
 }
 
+section {
+    margin: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+h2 {
+    color: #333;
+	margin-bottom: 15px;
+}
+h3	{
+	color: #333;
+	
+}
+
+/* Header/Footer */
 header, footer {
     background: #333;
     color: #fff;
@@ -16,15 +37,6 @@ footer {
     padding: 2rem 0;
     bottom: 0;
     width: 100%;
-}
-
-section {
-    margin: 2rem;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 .social-links {
@@ -41,6 +53,7 @@ img {
     vertical-align: middle;
 }
 
+/* 2. Qué estoy haciendo */
 .container {
     display: flex;
     justify-content: center;
@@ -62,15 +75,7 @@ img {
     width: 400px;
 }
 
-h2 {
-    color: #333;
-	margin-bottom: 15px;
-}
-h3	{
-	color: #333;
-	
-}
-
+/* 3. Tecnologías/Conocimientos */
 table {
     border-collapse: collapse;
     width: 50%;
@@ -86,6 +91,7 @@ th {
     background-color: #f2f2f2;
 }
 
+/* 4. Formación*/
 .formation-section {
     margin-left: 50px;
 }
@@ -116,6 +122,8 @@ th {
 .columna-formacion {
     text-align: left;
 }
+
+/* 5. Intereses */
 .columna-intereses {
 	width: 30%;
 }
